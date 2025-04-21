@@ -30,7 +30,7 @@ display: flex;
 
 &:hover {
 cursor: pointer;
-background-color: #139b0c;
+background-color: #38a169;
 }
 `
 const Text = styled.p`
@@ -56,7 +56,7 @@ export default function Header() {
             onClick={() => {
                 navigate("/add-blog")
             }}
-            > <img src={Plus} height={15} style={{marginRight: 6}} /> <Text> Add Blog </Text> </Button>
+            > <img src={Plus} height={15} style={{marginRight: 6}} alt="plus" /> <Text> Add Blog </Text> </Button>
         </HeaderContainer>
     )
 }
