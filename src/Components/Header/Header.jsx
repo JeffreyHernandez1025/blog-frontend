@@ -52,7 +52,7 @@ export default function Header() {
             > <Text> View Blogs </Text> </Button>
 
             <Button 
-            style={{marginLeft: '50px', backgroundColor: '#139b0c'}}
+            style={{marginLeft: '50px', backgroundColor: '#38a169'}}
             onClick={() => {
                 navigate("/add-blog")
             }}
